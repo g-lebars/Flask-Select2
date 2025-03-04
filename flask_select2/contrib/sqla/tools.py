@@ -2,7 +2,7 @@
 __author__ = 'Paul Cunningham'
 __copyright = 'Copyright 2017, Paul Cunningham'
 
-from sqlalchemy.ext.associationproxy import ASSOCIATION_PROXY
+from sqlalchemy.ext.associationproxy import AssociationProxy
 
 def get_primary_key(model):
     """
