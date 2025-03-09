@@ -6,6 +6,7 @@ from flask import url_for, json
 from flask_select2._compat import as_unicode
 from wtforms.widgets import html_params
 from markupsafe import Markup
+from sqlalchemy import inspect
 
 
 class AjaxSelect2Widget(object):
