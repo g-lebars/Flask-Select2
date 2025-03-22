@@ -4,6 +4,7 @@ __copyright = 'Copyright 2017, Paul Cunningham'
 
 from wtforms import SelectFieldBase, ValidationError
 from .widgets import AjaxSelect2Widget, AjaxTagsSelect2Widget
+from sqlalchemy import or_
 
 
 class AjaxSelectField(SelectFieldBase):
